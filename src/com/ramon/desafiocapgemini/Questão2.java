@@ -38,7 +38,7 @@ public class Questão2 {
 			
 			
 		}
-		System.out.println("O valor dos pares é de:" + cont);
+		System.out.println("Existem " + cont + " pares de inteiros com a diferença de " + valorx + ".");
 	}
 	
 	

@@ -12,12 +12,12 @@ public class Questão1 {
 		double resultado;
 		float numeros;
 
-		System.out.println("Digite uma quantidade ímpar de elementos da lista: ");
+		System.out.println("Digite uma lista de números com a quantidade ímpar de elementos: ");
 		int lista = scan.nextInt();
 
 		while (lista % 2 == 0) {
 
-			System.out.println("Digite uma quantidade ímpar");
+			System.out.println("Digite uma lista de números com a quantidade ímpar de elementos: ");
 
 			lista = scan.nextInt();
 
@@ -26,6 +26,7 @@ public class Questão1 {
 		int[] vetor = new int[lista];
 
 		for (int i = 0; i < lista; i++) {
+			System.out.println("Digite um número: ");
 			vetor[i] = scan.nextInt();
 
 		}
@@ -34,7 +35,7 @@ public class Questão1 {
 		System.out.println(Arrays.toString(vetor));
 		int posicaoNumeros = (vetor.length + 1) / 2;
 		resultado = posicaoNumeros;
-		System.out.println("A mediana é : " + vetor[(int) resultado - 1]);
+		System.out.println("A mediana é: " + vetor[(int) resultado - 1]);
 
 	}
 
