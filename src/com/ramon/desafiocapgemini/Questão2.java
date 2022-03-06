@@ -30,19 +30,14 @@ public class Questão2 {
 					cont++;
 					
 			
-					
 				} 
-				
+		
 				
 			}
 			
 			
 		}
-		System.out.println("Existem " + cont + " pares de inteiros com a diferença de " + valorx + ".");
+		System.out.println("Existem " + cont + " pares de inteiros com a diferença igual ao valor de " + valorx + ".");
 	}
-	
-	
-	
-	
 
 }
